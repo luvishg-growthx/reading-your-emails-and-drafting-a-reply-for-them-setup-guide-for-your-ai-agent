@@ -57,7 +57,7 @@ When the user asks you to read their email and draft replies, do this:
 
 ## 1. Read the inbox
 Use the Gmail tools to fetch the user's **unread** emails in the inbox
-(up to 10, newest first). For each, get the sender, subject, and body.
+(up to 15, newest first). For each, get the sender, subject, and body.
 **Do NOT send anything. Do NOT mark anything as read.**
 
 Skip obvious no-reply / marketing / automated blasts unless the user asked for
