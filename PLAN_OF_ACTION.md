@@ -25,6 +25,13 @@ Gmail connected, verified on the real inbox.
 
 ## Steps
 
+### 0. Confirm the stack
+- [ ] Check whether the user's agent is **Node.js** (`package.json`/`*.js`) or
+      **Python** (`requirements.txt`/`*.py`); ask if unclear. The skill +
+      `/reply` files are identical for both — the stack only matters for the
+      optional dispatcher-allowlist step (Step 4).
+- ✅ Done when: stack noted.
+
 ### 1. Install the skill
 - [ ] Create `.claude/skills/email-replies/SKILL.md` (create folders as needed)
       with the exact content from the guide.

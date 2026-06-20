@@ -6,7 +6,11 @@
 > to **read their unread Gmail and draft replies in the agent's own voice**. Do
 > this:
 >
-> 1. **Follow `PLAN_OF_ACTION.md`** — the ordered execution checklist (works for
+> 1. **Confirm the stack first** — check whether the user's agent is Node.js
+>    (`package.json`/`*.js`) or Python (`requirements.txt`/`*.py`). The skill +
+>    `/reply` files here are identical for both; only the optional
+>    dispatcher-allowlist step differs (Node vs Python).
+> 2. **Follow `PLAN_OF_ACTION.md`** — the ordered execution checklist (works for
 >    Claude *or* Codex). It links to the guide below for the full code.
 > 2. **Fetch and follow the setup guide** end-to-end — it has the full skill +
 >    command code and every step:

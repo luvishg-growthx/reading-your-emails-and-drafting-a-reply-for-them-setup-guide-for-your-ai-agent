@@ -8,6 +8,14 @@ plus a `/reply` command — it works the same whether their twin is Node or Pyth
 
 Everything you need is embedded below. Follow the steps in order.
 
+> ## ⚠️ First: confirm the stack
+> Check whether the user's agent is **Node.js** (`package.json` / `*.js`) or
+> **Python** (`requirements.txt` / `*.py`) — ask if unclear. The skill +
+> `/reply` command here are **the same for both languages** (they run inside the
+> Claude session, not in dispatcher code). The stack only matters for the
+> **optional** dispatcher-allowlist step (Step 4), which has a Node and a Python
+> note — apply the one that matches their agent.
+
 ---
 
 ## The prompt the user pastes (for reference)
