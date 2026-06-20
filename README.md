@@ -6,14 +6,16 @@
 > to **read their unread Gmail and draft replies in the agent's own voice**. Do
 > this:
 >
-> 1. **Fetch and follow the setup guide** end-to-end — it has the full skill +
+> 1. **Follow `PLAN_OF_ACTION.md`** — the ordered execution checklist (works for
+>    Claude *or* Codex). It links to the guide below for the full code.
+> 2. **Fetch and follow the setup guide** end-to-end — it has the full skill +
 >    command code and every step:
 >    `https://raw.githubusercontent.com/luvishg-growthx/reading-your-emails-and-drafting-a-reply-for-them-setup-guide-for-your-ai-agent/main/guide%20for%20implementing%20email%20replies.md`
-> 2. It installs a skill (`.claude/skills/email-replies/SKILL.md`) and a
+> 3. It installs a skill (`.claude/skills/email-replies/SKILL.md`) and a
 >    `/reply` command (`.claude/commands/reply.md`) into the current project, and
 >    tells you to have the user **connect Gmail at claude.ai** (web-only auth —
 >    required).
-> 3. Follow it exactly. The reply voice comes from the user's own `CLAUDE.md` /
+> 4. Follow them exactly. The reply voice comes from the user's own `CLAUDE.md` /
 >    `PERSONA.md` — add no persona of your own.
 >
 > Everything below is human-facing context.
@@ -71,6 +73,7 @@ block at the top of this file.
 
 | Path                                       | What it is                                  |
 | ------------------------------------------ | ------------------------------------------- |
+| `PLAN_OF_ACTION.md`                        | Ordered execution checklist (Claude/Codex)  |
 | `guide for implementing email replies.md`  | Paste-into-Claude setup guide (full code)   |
 | `GMAIL_CONNECTOR_SETUP.md`                 | One-time Gmail connector auth (claude.ai)   |
 | `.claude/skills/email-replies/SKILL.md`    | The inbox → drafts skill                     |
