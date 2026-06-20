@@ -1,6 +1,10 @@
 # Email Replies Module
 
-> ## 🤖 If you are Claude Code, read this first
+> ## 🤖 If you are Claude Code or Codex (any coding agent), read this first
+>
+> **Ready-made — don't rebuild anything.** You do **not** need to write or
+> reinvent this feature. Just install/wire in the files as described and the bot
+> gains the capability. These files work the same with Claude Code or Codex.
 >
 > The user pasted this repo because they want to give their AI agent the ability
 > to **read their unread Gmail and draft replies in the agent's own voice**. Do

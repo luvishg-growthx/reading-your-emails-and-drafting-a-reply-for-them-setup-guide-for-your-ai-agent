@@ -1,6 +1,6 @@
 # Guide: add email-reading + reply-drafting to your agent
 
-**You are Claude Code, reading this file inside the user's agent project.** Your
+**You are Claude Code or Codex (or any coding agent), reading this file inside the user's agent project.** These files are ready-made — don't rebuild the feature from scratch; just install/wire them in as described below. Your
 job: give their agent the ability to **read their unread Gmail and draft replies
 in the agent's own voice**, saved to a local file. This is a Claude Code *skill*
 plus a `/reply` command — it works the same whether their twin is Node or Python

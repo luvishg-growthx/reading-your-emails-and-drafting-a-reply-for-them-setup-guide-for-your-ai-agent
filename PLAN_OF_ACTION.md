@@ -1,6 +1,7 @@
 # Plan of action — add email reading + reply drafting to this agent
 
 **Audience: the coding agent (Claude Code, Codex, or similar) doing the work.**
+These files are ready-made — integrate them as-is; don't rebuild the feature.
 This is the ordered execution plan. The full skill/command source lives in the
 guide — open it and copy code from it:
 
